@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Glamoury By Rosette</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet">
+
+    <!-- Icon Font Stylesheet -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    
+    <style>
+        body {
+            font-family: 'Open Sans', sans-serif;
+        }
+        .page-header {
+            background: #D4A017;
+            color: #FFFDD0;
+            padding: 3rem 0;
+            text-align: center;
+        }
+        .page-header h1 {
+            font-size: 2.5rem;
+            text-decoration: underline;
+        }
+        .section-title {
+            font-size: 2rem;
+            margin: 2rem 0;
+            text-align: center;
+            color: #D4A017;
+        }
+        .section-content {
+            margin-bottom: 2rem;
+        }
+        .section-content h2 {
+            font-size: 1.5rem;
+            color: #D4A017;
+            margin-bottom: 1rem;
+        }
+        .section-content p, .section-content ul {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .section-content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .section-content ul li {
+            padding: 0.5rem 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        .section-content ul li i {
+            color: #D4A017;
+        }
+        .card {
+            border: none;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1rem;
+            padding: 1.5rem;
+        }
+        .card h5 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        .card p {
+            font-size: 1rem;
+            line-height: 1.6;
+        }
+        .footer {
+            background-color: #1C1C1C;
+            color: #FFFDD0;
+            padding: 3rem 0;
+        }
+        .footer h5 {
+            font-size: 1.25rem;
+            margin-bottom: 1rem;
+        }
+        .footer ul li a {
+            color: #FFFDD0;
+        }
+        .footer ul li a:hover {
+            color: #D4A017;
+        }
+        .back-to-top {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            background-color: #D4A017;
+            color: #FFFDD0;
+            border: none;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+        }
+        h1{
+            color: #fff;
+        }
+    </style>
+</head>
+
+<body class="tete">
+
+    <!-- Spinner Start -->
+    <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-grow text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar start -->
+    <div class="container-fluid fixed-top tete">
+        <div class="container topbar entete d-none d-lg-block">
+            <div class="d-flex justify-content-between">
+                <div class="top-info ps-2">
+                    <small class="me-3"><i class="fas fa-map-marker-alt me-2" style="color: white;"></i> <a href="#" class="text-white">Dassa-Zoumè, Bénin</a></small>
+                    <small class="me-3"><i class="fas fa-envelope me-2" style="color: white;"></i><a href="#" class="text-white">kpanourosette920@gmail.com</a></small>
+                    <small class="me-3"><i class="fas fa-phone-alt me-2" style="color: white;"></i><a href="#" class="text-white">+22997067615</a></small>
+                </div>
+                <div class="top-link pe-2">
+                    <a href="pdc.html" class="text-white"><small class="text-white mx-2">Politique de confidentialité</small>/</a>
+                    <a href="cgdv.html" class="text-white"><small class="text-white mx-2">Conditions générales de vente</small></a>
+                </div>
+            </div>
+        </div>
+        <div class="container px-0">
+            <nav class="navbar navbar-expand-xl">
+                <a href="index.html" class="navbar-brand"><h1 class="texte display-6">Glamoury</h1></a>
+                <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                    <span class="fa fa-bars text-primary"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <div class="navbar-nav mx-auto">
+                        <a href="index.html" class="nav-item nav-link active" style="color:#FFFDD0;">ACCUEIL</a>
+                        <a href="shop.html" class="nav-item nav-link" style="color:#FFFDD0">BOUTIQUE</a>
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: #FFFDD0">HISTOIRE</a>
+                            <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                <a href="A propos.html" class="dropdown-item">À propos de nous</a>
+                                <a href="testimonial.html" class="dropdown-item">Témoignages des clients</a>
+                            </div>
+                        </div>
+                        <a href="contact.html" class="nav-item nav-link" style="color: #FFFDD0;">CONTACT</a>
+                    </div>
+                    <div class="d-flex m-3 me-0">
+                        <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="color: #D4A017;"></i></button>
+                        <a href="#" class="position-relative me-4 my-auto">
+                            <i class="fa fa-shopping-bag fa-2x" style="color: #D4A017;"></i>
+                            <span class="position-absolute rounded-circle d-flex align-items-center justify-content-center px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px; background-color: #FFFDD0; color:black;">3</span>
+                        </a>
+                        <a href="#" class="my-auto">
+                            <i class="fas fa-user fa-2x" style="color: #D4A017;"></i>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+    <!-- Navbar End -->
+
+    <!-- Modal Search Start -->
+    <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-fullscreen">
+            <div class="modal-content rounded-0">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Tape un mot clé.</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body d-flex align-items-center">
+                    <div class="input-group w-75 mx-auto d-flex">
+                        <input type="search" class="form-control p-3" placeholder="Tape le mot clé" aria-describedby="search-icon-1">
+                        <span id="search-icon-1" class="input-group-text bg-white border-0"><i class="fas fa-search" style="color: #D4A017;"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal Search End -->
+
+    <!-- Header Start -->
+    <div class="page-header ">
+        <h1>Politique de Confidentialité</h1>
+    </div>
+    <!-- Header End -->
+
+    <div class="container my-5">
+        <div class="row">
+            <div class="col-lg-12">
+                <div class="card">
+                    <h5><i class="fas fa-lock me-2" style="color: #D4A017;"></i> Introduction</h5>
+                    <p>Bienvenue sur le site Glamoury By Rosette. Nous respectons votre vie privée et nous nous engageons à protéger vos informations personnelles. Cette politique de confidentialité explique comment nous collectons, utilisons et protégeons vos informations personnelles lorsque vous utilisez notre site web.</p>
+                </div>
+                <div class="card">
+                    <h5><i class="fas fa-info-circle me-2" style="color: #D4A017;"></i> Collecte des Informations</h5>
+                    <p>Nous collectons des informations personnelles lorsque vous vous inscrivez sur notre site, passez une commande ou interagissez avec nous. Les types d'informations collectées peuvent inclure :</p>
+                    <ul>
+                        <li><i class="fas fa-user me-2" style="color: #D4A017;"></i> Votre nom et prénom</li>
+                        <li><i class="fas fa-envelope me-2" style="color: #D4A017;"></i> Adresse e-mail</li>
+                        <li><i class="fas fa-map-marker-alt me-2" style="color: #D4A017;"></i> Adresse de livraison</li>
+                        <li><i class="fas fa-phone me-2" style="color: #D4A017;"></i> Numéro de téléphone</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h5><i class="fas fa-cogs me-2" style="color: #D4A017;"></i> Utilisation des Informations</h5>
+                    <p>Nous utilisons vos informations pour :</p>
+                    <ul>
+                        <li><i class="fas fa-shopping-cart me-2" style="color: #D4A017;"></i> Traiter vos commandes et gérer votre compte</li>
+                        <li><i class="fas fa-bullhorn me-2" style="color: #D4A017;"></i> Vous envoyer des informations promotionnelles</li>
+                        <li><i class="fas fa-user-cog me-2" style="color: #D4A017;"></i> Améliorer nos services et personnaliser votre expérience</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h5><i class="fas fa-shield-alt me-2" style="color: #D4A017;"></i> Protection des Informations</h5>
+                    <p>Nous mettons en œuvre des mesures de sécurité appropriées pour protéger vos informations contre tout accès non autorisé, divulgation ou destruction.</p>
+                </div>
+                <div class="card">
+                    <h5><i class="fas fa-rights-protect me-2" style="color: #D4A017;"></i> Vos Droits</h5>
+                    <p>Vous avez le droit de :</p>
+                    <ul>
+                        <li><i class="fas fa-edit me-2" style="color: #D4A017;"></i> Accéder, corriger ou supprimer vos informations personnelles</li>
+                        <li><i class="fas fa-lock me-2" style="color: #D4A017;"></i> Limiter l'utilisation de vos informations</li>
+                        <li><i class="fas fa-exclamation-circle me-2" style="color: #D4A017;"></i> Contacter notre service client pour toute question ou préoccupation</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h5><i class="fas fa-edit me-2" style="color: #D4A017;"></i> Modifications de la Politique</h5>
+                    <p>Nous pouvons mettre à jour cette politique de confidentialité de temps en temps. Les modifications seront publiées sur cette page avec une date de révision.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Footer Start -->
+        <div class="container-fluid text-white-50 footer pt-5 mt-5" style="color: black;">
+            <div class="container py-5">
+                <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+                    <div class="row g-4">
+                        <div class="col-lg-3">
+                            <a href="#">
+                                <h1 class="mb-0" style="color: white;">Glamoury By Rosette</h1>
+                            </a>
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="d-flex justify-content-end pt-3">
+                                <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                                <a class="btn btn-outline-secondary btn-md-square rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row g-5">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-3" style="color: #D4A017;">Comment nous suivre?</h4>
+                            <p class="mb-4" style="color: white;">Restez connecté avec Glamoury et soyez informé de nos dernières nouveautés, offres spéciales et conseils mode en nous suivant sur nos réseaux sociaux. Nous partageons régulièrement des mises à jour, des photos de nos produits, et des promotions exclusives.</p>
+                            <a href="A propos.html" class="btn border-secondary py-2 px-4 rounded-pill text-secondary">Lire plus</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                            <h4 class="mb-3" style="color: #D4A017;">Info</h4>
+                            <a class="btn-link" href="A propos.html" style="color: white;">En savoir plus</a>
+                            <a class="btn-link" href="contact.html" style="color: white;">Nous contacter</a>
+                            <a class="btn-link" href="pdc.html" style="color: white;">Politique de confidentielité</a>
+                            <a class="btn-link" href="cgdv.html" style="color: white;">Conditions générales de ventes</a>
+                            <a class="btn-link" href="FAQS.html" style="color: white;">FAQs & Aide</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="d-flex flex-column text-start footer-item">
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-item">
+                            <h4 class="mb-3" style="color: #D4A017;">Contact</h4>
+                            <p style="color: white;">Addresse: RNIE 3, Dassa-Zoumè</p>
+                            <p style="color: white;">Email: kpanourosette920@gmail.com</p>
+                            <p style="color: white;">Numéro: +22997067615</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Footer End -->
+
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4" style="background-color: #D4A017;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                        <span class="text-light"><i class="fas fa-copyright text-light me-2"></i>Glamoury By Rosette, Tous droit réservés.</span>
+                    </div>
+                    <div class="col-md-6 my-auto text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By Eliakim CLAUVIS
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright End -->
+
+
+
+        <!-- Back to Top -->
+        <a href="#" class="btn border-3 rounded-circle back-to-top" style="color: white; background-color: #D4A017;"><i class="fa fa-arrow-up"></i></a>   
+
+        
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+    </body>
+
+</html>

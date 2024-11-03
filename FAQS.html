@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Glamoury By Rosette</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Raleway:wght@600;800&display=swap" rel="stylesheet"> 
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body class="tete">
+
+        <!-- Spinner Start -->
+        <div id="spinner" class="show w-100 vh-100 bg-white position-fixed translate-middle top-50 start-50  d-flex align-items-center justify-content-center">
+            <div class="spinner-grow text-primary" role="status"></div>
+        </div>
+        <!-- Spinner End -->
+
+
+        <!-- Navbar start -->
+        <div class="container-fluid fixed-top tete">
+            <div class="container topbar entete d-none d-lg-block">
+                <div class="d-flex justify-content-between">
+                    <div class="top-info ps-2">
+                        <small class="me-3"><i class="fas fa-map-marker-alt me-2" style="color: white;"></i> <a href="#" class="text-white"> Dassa-Zoumè, Bénin</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2" style="color: white;"></i><a href="#" class="text-white">kpanourosette920@gmail.com</a></small>
+                        <small class="me-3"><i class="fas fa-envelope me-2" style="color: white;"></i><a href="#" class="text-white">+22997067615</a></small>
+                    </div>
+                    <div class="top-link pe-2">
+                        <a href="pdc.html" class="text-white"><small class="text-white mx-2">Politique de confidentialité</small>/</a>
+                        <a href="cgdv.html" class="text-white"><small class="text-white mx-2">Conditions générales de vente</small></a>
+                    </div>
+                </div>
+            </div>
+            <div class="container px-0">
+                <nav class="navbar navbar-expand-xl">
+                    <a href="index.html" class="navbar-brand"><h1 class="texte display-6">Glamoury </h1></a>
+                    <button class="navbar-toggler py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars text-primary"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav mx-auto">
+                            <a href="index.html" class="nav-item nav-link active" style="color:#FFFDD0;">ACCUEIL</a>
+                            <a href="shop.html" class="nav-item nav-link" style="color:#FFFDD0">BOUTIQUE</a>
+                            <div class="nav-item dropdown">
+                                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" style="color: #FFFDD0">HISTOIRE</a>
+                                <div class="dropdown-menu m-0 bg-secondary rounded-0">
+                                    <a href="A propos.html" class="dropdown-item">À propos de nous</a>
+                                    <a href="testimonial.html" class="dropdown-item">Témoignages des clients</a>
+                                </div>
+                            </div>
+                            <a href="contact.html" class="nav-item nav-link" style="color: #FFFDD0;">CONTACT</a>
+                        </div>
+                        <div class="d-flex m-3 me-0">
+                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="color: #D4A017;"></i></button>
+                            <a href="#" class="position-relative me-4 my-auto">
+                                <i class="fa fa-shopping-bag fa-2x" style="color: #D4A017;"></i>
+                                <span class="position-absolute rounded-circle d-flex align-items-center justify-content-center px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px; background-color: #FFFDD0; color:black;">3</span>
+                            </a>
+                            <a href="#" class="my-auto">
+                                <i class="fas fa-user fa-2x" style="color: #D4A017;"></i>
+                            </a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+        <!-- Navbar End -->
+
+
+        <!-- Modal Search Start -->
+        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-fullscreen">
+                <div class="modal-content rounded-0">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Tape un mot clé .</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body d-flex align-items-center">
+                        <div class="input-group w-75 mx-auto d-flex">
+                            <input type="search" class="form-control p-3" placeholder="Tape le mot clé" aria-describedby="search-icon-1">
+                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal Search End -->
+
+        <!-- Single Page Header start -->
+        <div class="container-fluid page-header py-5">
+            <h1 class="text-center text-secondary display-6">FAQ et Aide</h1>
+            <ol class="breadcrumb justify-content-center mb-0">
+                <li class="breadcrumb-item"><a href="index.html" class="text-secondary">Accueil</a></li>
+                <li class="breadcrumb-item text-white">Pages</li>
+                <li class="breadcrumb-item active text-white">A propos</li>
+            </ol>
+        </div>
+        <!-- Single Page Header End -->
+
+        <style>
+            body {
+                font-family: 'Arial', sans-serif;
+                background-color: #f7f7f7;
+            }
+    
+            .accordion-button {
+                background-color: #1C1C1C;
+                color: white;
+                font-weight: bold;
+            }
+    
+            .accordion-button:not(.collapsed) {
+                background-color: #D4A017;
+                color: #1C1C1C;
+            }
+    
+            .accordion-button:hover {
+                background-color: #B59410;
+                color: white;
+            }
+    
+            .accordion-body {
+                background-color: #fff;
+                color: #333;
+            }
+    
+            .faq-title {
+                text-align: center;
+                margin: 40px 0;
+                font-size: 2.5rem;
+                color: #1C1C1C;
+            }
+        </style>
+
+
+<div class="container">
+    <h1 class="faq-title">FAQ - Glamoury by Rosette</h1>
+
+    <div class="accordion" id="faqAccordion">
+        <!-- Question 1 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Comment passer une commande sur Glamoury by Rosette ?
+                </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse " aria-labelledby="headingOne" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Pour passer une commande, parcourez notre boutique en ligne, sélectionnez vos articles préférés et ajoutez-les à votre panier. Ensuite, accédez au panier et suivez les instructions pour compléter l'achat. Nous acceptons plusieurs méthodes de paiement.
+                </div>
+            </div>
+        </div>
+        <!-- Question 2 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Quels sont les délais de livraison ?
+                </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Les délais de livraison dépendent de votre localisation et du mode de livraison choisi. Généralement, nos livraisons prennent entre 5 et 10 jours ouvrés.
+                </div>
+            </div>
+        </div>
+        <!-- Question 3 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Puis-je retourner un article ?
+                </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Oui, vous pouvez retourner un article dans un délai de 14 jours après réception, à condition qu'il soit dans son état d'origine. Contactez-nous pour obtenir les instructions de retour.
+                </div>
+            </div>
+        </div>
+        <!-- Question 4 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Quels moyens de paiement acceptez-vous ?
+                </button>
+            </h2>
+            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Nous acceptons Visa, Mastercard, American Express et PayPal. Toutes les transactions sont sécurisées.
+                </div>
+            </div>
+        </div>
+        <!-- Question 5 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Comment suivre ma commande ?
+                </button>
+            </h2>
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Une fois votre commande expédiée, vous recevrez un email avec un numéro de suivi pour connaître l'avancement de la livraison.
+                </div>
+            </div>
+        </div>
+        <!-- Question 6 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Où livrez-vous ?
+                </button>
+            </h2>
+            <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Nous livrons à l'international. Les frais de livraison varient en fonction de la destination.
+                </div>
+            </div>
+        </div>
+        <!-- Question 7 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSeven">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                    Proposez-vous des réductions ou des offres spéciales ?
+                </button>
+            </h2>
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Oui, nous proposons régulièrement des promotions et des offres exclusives. Abonnez-vous à notre newsletter pour rester informé.
+                </div>
+            </div>
+        </div>
+        <!-- Question 8 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingEight">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                    Comment puis-je modifier ou annuler ma commande ?
+                </button>
+            </h2>
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Vous pouvez modifier ou annuler votre commande avant son expédition. Contactez-nous dès que possible pour apporter des modifications.
+                </div>
+            </div>
+        </div>
+        <!-- Question 9 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingNine">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseNine" aria-expanded="false" aria-controls="collapseNine">
+                    Quels sont les frais de livraison ?
+                </button>
+            </h2>
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Les frais de livraison varient selon la destination et le poids du colis. Vous pouvez consulter les frais exacts lors du passage de votre commande.
+                </div>
+            </div>
+        </div>
+        <!-- Question 10 -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTen">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTen" aria-expanded="false" aria-controls="collapseTen">
+                    Proposez-vous des services de personnalisation ?
+                </button>
+            </h2>
+            <div id="collapseTen" class="accordion-collapse collapse" aria-labelledby="headingTen" data-bs-parent="#faqAccordion">
+                <div class="accordion-body">
+                    Oui, nous proposons des services de personnalisation pour certains articles. Contactez notre service client pour plus d'informations.
+                </div>
+            </div>            
+        </div>    
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <!-- Footer Start -->
+                <div class="container-fluid text-white-50 footer pt-5 mt-5" style="color: black;">
+                    <div class="container py-5">
+                        <div class="pb-4 mb-4" style="border-bottom: 1px solid rgba(226, 175, 24, 0.5) ;">
+                            <div class="row g-4">
+                                <div class="col-lg-3">
+                                    <a href="#">
+                                        <h1 class="mb-0" style="color: white;">Glamoury By Rosette</h1>
+                                    </a>
+                                </div>
+                                <div class="col-lg-3">
+                                    <div class="d-flex justify-content-end pt-3">
+                                        <a class="btn  btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-twitter"></i></a>
+                                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-facebook-f"></i></a>
+                                        <a class="btn btn-outline-secondary me-2 btn-md-square rounded-circle" href=""><i class="fab fa-youtube"></i></a>
+                                        <a class="btn btn-outline-secondary btn-md-square rounded-circle" href=""><i class="fab fa-linkedin-in"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row g-5">
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer-item">
+                                    <h4 class="mb-3" style="color: #D4A017;">Comment nous suivre?</h4>
+                                    <p class="mb-4" style="color: white;">Restez connecté avec Glamoury et soyez informé de nos dernières nouveautés, offres spéciales et conseils mode en nous suivant sur nos réseaux sociaux. Nous partageons régulièrement des mises à jour, des photos de nos produits, et des promotions exclusives.</p>
+                                    <a href="A propos.html" class="btn border-secondary py-2 px-4 rounded-pill text-secondary">Lire plus</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="d-flex flex-column text-start footer-item">
+                                    <h4 class="mb-3" style="color: #D4A017;">Info</h4>
+                                    <a class="btn-link" href="A propos.html" style="color: white;">En savoir plus</a>
+                                    <a class="btn-link" href="contact.html" style="color: white;">Nous contacter</a>
+                                    <a class="btn-link" href="pdc.html" style="color: white;">Politique de confidentielité</a>
+                                    <a class="btn-link" href="cgdv.html" style="color: white;">Conditions générales de ventes</a>
+                                    <a class="btn-link" href="FAQS.html" style="color: white;">FAQs & Aide</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="d-flex flex-column text-start footer-item">
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-md-6">
+                                <div class="footer-item">
+                                    <h4 class="mb-3" style="color: #D4A017;">Contact</h4>
+                                    <p style="color: white;">Addresse: RNIE 3, Dassa-Zoumè</p>
+                                    <p style="color: white;">Email: kpanourosette920@gmail.com</p>
+                                    <p style="color: white;">Numéro: +22997067615</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Footer End -->
+        
+                <!-- Copyright Start -->
+                <div class="container-fluid copyright py-4" style="background-color: #D4A017;">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                                <span class="text-light"><i class="fas fa-copyright text-light me-2"></i>Glamoury By Rosette, Tous droit réservés.</span>
+                            </div>
+                            <div class="col-md-6 my-auto text-center text-md-end text-white">
+                                <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                                <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                                <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                                Designed By Eliakim CLAUVIS
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Copyright End -->
+        
+        
+        
+                <!-- Back to Top -->
+                <a href="#" class="btn border-3 rounded-circle back-to-top" style="color: white; background-color: #D4A017;"><i class="fa fa-arrow-up"></i></a>   
+        
+                
+            <!-- JavaScript Libraries -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/waypoints/waypoints.min.js"></script>
+            <script src="lib/lightbox/js/lightbox.min.js"></script>
+            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        
+            <!-- Template Javascript -->
+            <script src="js/main.js"></script>
+            </body>
+        
+        </html>
