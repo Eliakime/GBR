@@ -73,12 +73,6 @@
                             </div>
                             <a href="contact.html" class="nav-item nav-link" style="color: #FFFDD0;">CONTACT</a>
                         </div>
-                        <div class="d-flex m-3 me-0">
-                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="color: #D4A017;"></i></button>
-                            <a href="cart.html" class="position-relative me-4 my-auto">
-                                <i class="fa fa-shopping-bag fa-2x" style="color: #D4A017;"></i>
-                                <span class="position-absolute rounded-circle d-flex align-items-center justify-content-center px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px; background-color: #FFFDD0; color:black;">3</span>
-                            </a>
                             <a href="contact.html" class="my-auto">
                                 <i class="fas fa-user fa-2x" style="color: #D4A017;"></i>
                             </a>
@@ -217,132 +211,159 @@
                             </div>
                         </div>
     
-                        <!-- Social Media Icons -->
-                        <div class="d-flex mt-4">
-                            <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="#"><i class="fab fa-facebook-f"></i></a>
-                            <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="#"><i class="fab fa-twitter"></i></a>
-                            <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="#"><i class="fab fa-instagram"></i></a>
-                            <a class="btn btn-outline-secondary btn-md-square rounded-circle" href="#"><i class="fab fa-linkedin-in"></i></a>
+<!-- Social Media Icons -->
+<div class="d-flex mt-4">
+    <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="https://www.facebook.com/yourPage" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="https://twitter.com/yourProfile" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="https://www.instagram.com/yourProfile" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="https://www.linkedin.com/in/yourProfile" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="https://wa.me/+22997067615" target="_blank"><i class="fab fa-whatsapp"></i></a>
+    <a class="btn btn-outline-secondary me-3 btn-md-square rounded-circle" href="https://www.tiktok.com/@yourProfile" target="_blank"><i class="fab fa-tiktok"></i></a>
+</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="container py-5">
+    <h1 class="contact-header text-white">Nous Contacter via les Réseaux Sociaux</h1>
+    <div class="accordion" id="socialAccordion">
+        <!-- Facebook -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="facebookHeading">
+                <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#facebookCollapse" aria-expanded="false" aria-controls="facebookCollapse">
+                    Facebook
+                </button>
+            </h2>
+            <div id="facebookCollapse" class="accordion-collapse collapse" aria-labelledby="facebookHeading" data-bs-parent="#socialAccordion">
+                <div class="accordion-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="facebookName" class="form-label">Votre Nom sur Facebook</label>
+                            <input type="text" class="form-control" id="facebookName" placeholder="Nom sur Facebook">
                         </div>
-                    </div>
+                        <div class="mb-3">
+                            <label for="facebookURL" class="form-label">Profil Facebook (URL)</label>
+                            <input type="url" class="form-control" id="facebookURL" placeholder="Lien vers votre profil">
+                        </div>
+                        <div class="mb-3">
+                            <label for="facebookMessage" class="form-label">Votre Message</label>
+                            <textarea class="form-control" id="facebookMessage" rows="4" placeholder="Votre message ici..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- WhatsApp -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="whatsappHeading">
+                <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#whatsappCollapse" aria-expanded="false" aria-controls="whatsappCollapse">
+                    WhatsApp
+                </button>
+            </h2>
+            <div id="whatsappCollapse" class="accordion-collapse collapse" aria-labelledby="whatsappHeading" data-bs-parent="#socialAccordion">
+                <div class="accordion-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="whatsappNumber" class="form-label">Votre Numéro WhatsApp</label>
+                            <input type="text" class="form-control" id="whatsappNumber" placeholder="Numéro WhatsApp">
+                        </div>
+                        <div class="mb-3">
+                            <label for="whatsappMessage" class="form-label">Votre Message</label>
+                            <textarea class="form-control" id="whatsappMessage" rows="4" placeholder="Votre message ici..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- LinkedIn -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="linkedinHeading">
+                <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#linkedinCollapse" aria-expanded="false" aria-controls="linkedinCollapse">
+                    LinkedIn
+                </button>
+            </h2>
+            <div id="linkedinCollapse" class="accordion-collapse collapse" aria-labelledby="linkedinHeading" data-bs-parent="#socialAccordion">
+                <div class="accordion-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="linkedinName" class="form-label">Votre Nom sur LinkedIn</label>
+                            <input type="text" class="form-control" id="linkedinName" placeholder="Nom sur LinkedIn">
+                        </div>
+                        <div class="mb-3">
+                            <label for="linkedinURL" class="form-label">Profil LinkedIn (URL)</label>
+                            <input type="url" class="form-control" id="linkedinURL" placeholder="Lien vers votre profil">
+                        </div>
+                        <div class="mb-3">
+                            <label for="linkedinMessage" class="form-label">Votre Message</label>
+                            <textarea class="form-control" id="linkedinMessage" rows="4" placeholder="Votre message ici..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Instagram -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="instagramHeading">
+                <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#instagramCollapse" aria-expanded="false" aria-controls="instagramCollapse">
+                    Instagram
+                </button>
+            </h2>
+            <div id="instagramCollapse" class="accordion-collapse collapse" aria-labelledby="instagramHeading" data-bs-parent="#socialAccordion">
+                <div class="accordion-body">
+                    <form>
+                        <div class="mb-3">
+                            <label for="instagramName" class="form-label">Votre Nom sur Instagram</label>
+                            <input type="text" class="form-control" id="instagramName" placeholder="Nom sur Instagram">
+                        </div>
+                        <div class="mb-3">
+                            <label for="instagramURL" class="form-label">Profil Instagram (URL)</label>
+                            <input type="url" class="form-control" id="instagramURL" placeholder="Lien vers votre profil">
+                        </div>
+                        <div class="mb-3">
+                            <label for="instagramMessage" class="form-label">Votre Message</label>
+                            <textarea class="form-control" id="instagramMessage" rows="4" placeholder="Votre message ici..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Envoyer</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Gmail Contact Form -->
+        <div class="accordion-item">
+            <h2 class="accordion-header" id="gmailHeading">
+                <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#gmailCollapse" aria-expanded="false" aria-controls="gmailCollapse">
+                    Contactez-nous via Gmail
+                </button>
+            </h2>
+            <div id="gmailCollapse" class="accordion-collapse collapse" aria-labelledby="gmailHeading" data-bs-parent="#socialAccordion">
+                <div class="accordion-body">
+                    <form action="mailto:kpanourosette920@gmail.com" method="get" enctype="text/plain">
+                        <div class="mb-3">
+                            <label for="gmailName" class="form-label">Votre Nom</label>
+                            <input type="text" class="form-control" id="gmailName" placeholder="Votre Nom">
+                        </div>
+                        <div class="mb-3">
+                            <label for="gmailMessage" class="form-label">Votre Message</label>
+                            <textarea class="form-control" id="gmailMessage" rows="4" placeholder="Votre message ici..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-secondary">Envoyer</button>
+                    </form>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container py-5">
-        <h1 class="contact-header text-white">Nous Contacter via les Réseaux Sociaux</h1>
-        
-        <div class="accordion" id="socialAccordion">
-            <!-- Facebook -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="facebookHeading">
-                    <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#facebookCollapse" aria-expanded="false" aria-controls="facebookCollapse">
-                        Facebook
-                    </button>
-                </h2>
-                <div id="facebookCollapse" class="accordion-collapse collapse" aria-labelledby="facebookHeading" data-bs-parent="#socialAccordion">
-                    <div class="accordion-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="facebookName" class="form-label">Votre Nom sur Facebook</label>
-                                <input type="text" class="form-control" id="facebookName" placeholder="Nom sur Facebook">
-                            </div>
-                            <div class="mb-3">
-                                <label for="facebookURL" class="form-label">Profil Facebook (URL)</label>
-                                <input type="url" class="form-control" id="facebookURL" placeholder="Lien vers votre profil">
-                            </div>
-                            <div class="mb-3">
-                                <label for="facebookMessage" class="form-label">Votre Message</label>
-                                <textarea class="form-control" id="facebookMessage" rows="4" placeholder="Votre message ici..."></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-secondary">Envoyer</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- WhatsApp -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="whatsappHeading">
-                    <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#whatsappCollapse" aria-expanded="false" aria-controls="whatsappCollapse">
-                        WhatsApp
-                    </button>
-                </h2>
-                <div id="whatsappCollapse" class="accordion-collapse collapse" aria-labelledby="whatsappHeading" data-bs-parent="#socialAccordion">
-                    <div class="accordion-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="whatsappNumber" class="form-label">Votre Numéro WhatsApp</label>
-                                <input type="text" class="form-control" id="whatsappNumber" placeholder="Numéro WhatsApp">
-                            </div>
-                            <div class="mb-3">
-                                <label for="whatsappMessage" class="form-label">Votre Message</label>
-                                <textarea class="form-control" id="whatsappMessage" rows="4" placeholder="Votre message ici..."></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-secondary ">Envoyer</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- LinkedIn -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="linkedinHeading">
-                    <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#linkedinCollapse" aria-expanded="false" aria-controls="linkedinCollapse">
-                        LinkedIn
-                    </button>
-                </h2>
-                <div id="linkedinCollapse" class="accordion-collapse collapse" aria-labelledby="linkedinHeading" data-bs-parent="#socialAccordion">
-                    <div class="accordion-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="linkedinName" class="form-label">Votre Nom sur LinkedIn</label>
-                                <input type="text" class="form-control" id="linkedinName" placeholder="Nom sur LinkedIn">
-                            </div>
-                            <div class="mb-3">
-                                <label for="linkedinURL" class="form-label">Profil LinkedIn (URL)</label>
-                                <input type="url" class="form-control" id="linkedinURL" placeholder="Lien vers votre profil">
-                            </div>
-                            <div class="mb-3">
-                                <label for="linkedinMessage" class="form-label">Votre Message</label>
-                                <textarea class="form-control" id="linkedinMessage" rows="4" placeholder="Votre message ici..."></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-secondary">Envoyer</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-    
-            <!-- Instagram -->
-            <div class="accordion-item">
-                <h2 class="accordion-header" id="instagramHeading">
-                    <button class="accordion-button collapsed text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#instagramCollapse" aria-expanded="false" aria-controls="instagramCollapse">
-                        Instagram
-                    </button>
-                </h2>
-                <div id="instagramCollapse" class="accordion-collapse collapse" aria-labelledby="instagramHeading" data-bs-parent="#socialAccordion">
-                    <div class="accordion-body">
-                        <form>
-                            <div class="mb-3">
-                                <label for="instagramName" class="form-label">Votre Nom sur Instagram</label>
-                                <input type="text" class="form-control" id="instagramName" placeholder="Nom sur Instagram">
-                            </div>
-                            <div class="mb-3">
-                                <label for="instagramURL" class="form-label">Profil Instagram (URL)</label>
-                                <input type="url" class="form-control" id="instagramURL" placeholder="Lien vers votre profil">
-                            </div>
-                            <div class="mb-3">
-                                <label for="instagramMessage" class="form-label">Votre Message</label>
-                                <textarea class="form-control" id="instagramMessage" rows="4" placeholder="Votre message ici..."></textarea>
-                            </div>
-                            <button type="submit" class="btn btn-secondary">Envoyer</button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    
+</div>
+
+
+
         <!-- Footer Start -->
         <div class="container-fluid text-white-50 footer pt-5 mt-5" style="color: black;">
             <div class="container py-5">
@@ -432,6 +453,53 @@
 
     <!-- Template Javascript -->
     <script src="js/main.js"></script>
+    <!-- JavaScript et EmailJS -->
+<script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+<script>
+    emailjs.init("YOUR_USER_ID"); // Remplacez par votre User ID EmailJS
+
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault();  // Empêche le formulaire de se soumettre normalement
+        
+        // Validation des champs avant envoi
+        var name = document.getElementById("gmailName").value;
+        var email = document.getElementById("gmailEmail").value;
+        var message = document.getElementById("gmailMessage").value;
+
+        if (name === "" || email === "" || message === "") {
+            alert("Veuillez remplir tous les champs avant d'envoyer votre message.");
+            return;  // Empêche l'envoi si des champs sont vides
+        }
+
+        // Si les champs sont remplis, envoyer le formulaire via EmailJS
+        emailjs.sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', this)
+            .then(function(response) {
+                alert('Message envoyé avec succès!', response);
+            }, function(error) {
+                alert('Erreur lors de l\'envoi du message.', error);
+            });
+    });
+</script>
+<script>
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+        event.preventDefault();  // Empêche l'envoi normal du formulaire
+        
+        // Validation des champs
+        var name = document.getElementById("gmailName").value;
+        var email = document.getElementById("gmailEmail").value;
+        var message = document.getElementById("gmailMessage").value;
+
+        if (name === "" || email === "" || message === "") {
+            alert("Veuillez remplir tous les champs avant d'envoyer votre message.");
+            return;  // Empêche l'envoi si des champs sont vides
+        }
+
+        // Envoie un message via WhatsApp
+        var whatsappLink = "https://wa.me/+22997067615?text=" + encodeURIComponent("Nom: " + name + "\nEmail: " + email + "\nMessage: " + message);
+        window.open(whatsappLink, "_blank");
+    });
+</script>
+
     </body>
 
 </html>

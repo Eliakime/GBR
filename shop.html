@@ -72,13 +72,7 @@
                             </div>
                             <a href="contact.html" class="nav-item nav-link" style="color: #FFFDD0;">CONTACT</a>
                         </div>
-                        <div class="d-flex m-3 me-0">
-                            <button class="btn-search btn border border-secondary btn-md-square rounded-circle bg-white me-4" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search" style="color: #D4A017;"></i></button>
-                            <a href="#" class="position-relative me-4 my-auto">
-                                <i class="fa fa-shopping-bag fa-2x" style="color: #D4A017;"></i>
-                                <span class="position-absolute rounded-circle d-flex align-items-center justify-content-center px-1" style="top: -5px; left: 15px; height: 20px; min-width: 20px; background-color: #FFFDD0; color:black;">3</span>
-                            </a>
-                            <a href="#" class="my-auto">
+                            <a href="contact.html" class="my-auto">
                                 <i class="fas fa-user fa-2x" style="color: #D4A017;"></i>
                             </a>
                         </div>
@@ -129,65 +123,81 @@
         <!-- Single Page Header End -->
 
 
-        <!-- Fruits Shop Start-->
-        <div class="container-fluid fruite py-5">
-            <div class="container py-5">
-                <h1 class="mb-4 text-secondary">Boutique</h1>
-                <div class="row g-4">
-                    <div class="col-lg-12">
-                        <div class="row g-4">
-                            <div class="col-xl-3">
-                                <div class="input-group w-100 mx-auto d-flex">
-                                    <input type="search" class="form-control p-3" placeholder="Mots clés" aria-describedby="search-icon-1">
-                                    <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
-                                </div>
-                            </div>
+<!-- Section Meilleurs Produits -->
+<div class="container-fluid py-5">
+    <div class="container">
+        <h1 class="mb-4 text-secondary">Meilleurs Produits</h1>
+        <div class="row g-4">
+            <!-- Produit 1 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="rounded position-relative fruite-item">
+                    <div class="fruite-img">
+                        <img src="img/Shop/1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                    </div>
+                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h4>Grapes</h4>
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                            <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier</span></a>
                         </div>
-                        <div class="row g-4">
-                            <div class="col-lg-3">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 2 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="rounded position-relative fruite-item">
+                    <div class="fruite-img">
+                        <img src="img/Shop/2.jpg" class="img-fluid w-100 rounded-top" alt="">
+                    </div>
+                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h4>Raspberries</h4>
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                            <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$5.99 / kg</span></p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Produit 3 -->
+            <div class="col-md-6 col-lg-4">
+                <div class="rounded position-relative fruite-item">
+                    <div class="fruite-img">
+                        <img src="img/Shop/3.jpg" class="img-fluid w-100 rounded-top" alt="">
+                    </div>
+                    <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                        <h4>Banana</h4>
+                        <div class="d-flex justify-content-between flex-lg-wrap">
+                            <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$2.99 / kg</span></p>
+                            <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier</span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Section Catégories (Accordéon) -->
+<div class="container-fluid fruite py-5">
+    <div class="container py-5">
+        <h1 class="mb-4 text-secondary">Toutes les Catégories</h1>
+        <div class="row g-4">
+            <div class="col-lg-12">
+                <div class="accordion" id="shopAccordion">
+                    <!-- Homme Category -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingHomme">
+                            <button class="accordion-button text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseHomme" aria-expanded="true" aria-controls="collapseHomme">
+                                Homme (26)
+                            </button>
+                        </h2>
+                        <div id="collapseHomme" class="accordion-collapse collapse " aria-labelledby="headingHomme" data-bs-parent="#shopAccordion">
+                            <div class="accordion-body">
                                 <div class="row g-4">
-                                    <div class="col-lg-12">
-                                        <div class="mb-3">
-                                            <h4 class="text-white">Categories</h4>
-                                            <ul class="list-unstyled fruite-categorie">
-                                                <li>
-                                                    <div class="d-flex justify-content-between fruite-name">
-                                                        <a href="shop - Copie (2).html"><i class="fas fa-shopping-cart text-secondary me-2"></i><span class="text-secondary">Homme</span></a>
-                                                        <span class="text-white">(26)</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="d-flex justify-content-between fruite-name">
-                                                        <a href="shop - Copie (3).html"><i class="fas fa-shopping-cart text-secondary me-2"></i><span class="text-secondary">Femme</span></a>
-                                                        <span class="text-white">(30)</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="d-flex justify-content-between fruite-name">
-                                                        <a href="shop - Copie (4).html"><i class="fas fa-shopping-cart text-secondary me-2"></i><span class="text-secondary">Enfant</span></a>
-                                                        <span class="text-white">(19)</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="d-flex justify-content-between fruite-name">
-                                                        <a href="shop - Copie (5).html"><i class="fas fa-shopping-cart text-secondary me-2"></i><span class="text-secondary">Cosmétiques</span></a>
-                                                        <span class="text-white">(24)</span>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="d-flex justify-content-between fruite-name">
-                                                        <a href="shop - Copie (6).html"><i class="fas fa-shopping-cart text-secondary me-2"></i><span class="text-secondary">Acessoire</span></a>
-                                                        <span class="text-white">(39)</span>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-lg-9">
-                                <div class="row g-4 justify-content-center">
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
+                                    <!-- Exemple de produit Homme -->
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Shop/1.jpg" class="img-fluid w-100 rounded-top" alt="">
@@ -195,148 +205,118 @@
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
                                                 <h4>Grapes</h4>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
+                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-dark">$4.99 / kg</span></p>
+                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-dark"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-dark">Ajouter au panier</span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
+                                    <!-- Ajouter d'autres produits ici -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Femme Category -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingFemme">
+                            <button class="accordion-button text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFemme" aria-expanded="false" aria-controls="collapseFemme">
+                                Femme (15)
+                            </button>
+                        </h2>
+                        <div id="collapseFemme" class="accordion-collapse collapse" aria-labelledby="headingFemme" data-bs-parent="#shopAccordion">
+                            <div class="accordion-body">
+                                <div class="row g-4">
+                                    <!-- Exemple de produit Femme -->
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Shop/2.jpg" class="img-fluid w-100 rounded-top" alt="">
                                             </div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Grapes</h4>
+                                                <h4>Dress</h4>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
+                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-dark">$39.99</span></p>
+                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-dark"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-dark">Ajouter au panier</span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
+                                    <!-- Ajouter d'autres produits ici -->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Électroniques Category -->
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingElectroniques">
+                            <button class="accordion-button  text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseElectroniques" aria-expanded="false" aria-controls="collapseElectroniques">
+                                Enfant (10)
+                            </button>
+                        </h2>
+                        <div id="collapseElectroniques" class="accordion-collapse collapse" aria-labelledby="headingElectroniques" data-bs-parent="#shopAccordion">
+                            <div class="accordion-body">
+                                <div class="row g-4">
+                                    <!-- Exemple de produit Électronique -->
+                                    <div class="col-md-6 col-lg-4">
                                         <div class="rounded position-relative fruite-item">
                                             <div class="fruite-img">
                                                 <img src="img/Shop/3.jpg" class="img-fluid w-100 rounded-top" alt="">
                                             </div>
                                             <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Raspberries</h4>
+                                                <h4>Sac à dos </h4>
                                                 <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
+                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-dark">$199.99</span></p>
+                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-dark"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-dark">Ajouter au panier</span></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
-                                        <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/Shop/4.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Apricots</h4>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
-                                        <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/Shop/5.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Banana</h4>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
-                                        <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/Shop/6.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Oranges</h4>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
-                                        <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/Shop/7.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Raspberries</h4>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
-                                        <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/Shop/8.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Grapes</h4>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
-                                        <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/Shop/9.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Oranges</h4>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-md-6 col-lg-6 col-xl-4">
-                                        <div class="rounded position-relative fruite-item">
-                                            <div class="fruite-img">
-                                                <img src="img/Shop/10.jpg" class="img-fluid w-100 rounded-top" alt="">
-                                            </div>
-                                            <div class="p-4 border border-secondary border-top-0 rounded-bottom">
-                                                <h4>Grapes</h4>
-                                                <div class="d-flex justify-content-between flex-lg-wrap">
-                                                    <p class="text-dark fs-5 fw-bold mb-0"><span class="text-light">$4.99 / kg</span></p>
-                                                    <a href="#" class="btn border border-secondary rounded-pill px-3 text-primary"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-white">Ajouter au panier </span></a>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <!-- Ajouter d'autres produits ici -->
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                                        <!-- Cosmetics Category -->
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="headingCosmetics">
+                                                <button class="accordion-button text-secondary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCosmetics" aria-expanded="true" aria-controls="collapseCosmetics">
+                                                    Cosmetics (26)
+                                                </button>
+                                            </h2>
+                                                                                        <div id="collapseCosmetics" class="accordion-collapse collapse " aria-labelledby="headingCosmetics" data-bs-parent="#shopAccordion">
+                                                <div class="accordion-body">
+                                                    <div class="row g-4">
+                                                        <!-- Exemple de produit Homme -->
+                                                        <div class="col-md-6 col-lg-4">
+                                                            <div class="rounded position-relative fruite-item">
+                                                                <div class="fruite-img">
+                                                                    <img src="img/Shop/1.jpg" class="img-fluid w-100 rounded-top" alt="">
+                                                                </div>
+                                                                <div class="p-4 border border-secondary border-top-0 rounded-bottom">
+                                                                    <h4>Grapes</h4>
+                                                                    <div class="d-flex justify-content-between flex-lg-wrap">
+                                                                        <p class="text-dark fs-5 fw-bold mb-0"><span class="text-dark">$4.99 / kg</span></p>
+                                                                        <a href="#" class="btn border border-secondary rounded-pill px-3 text-dark"><i class="fa fa-shopping-bag me-2 text-secondary"></i> <span class="text-dark">Ajouter au panier</span></a>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Ajouter d'autres produits ici -->
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                    
+
                 </div>
             </div>
         </div>
-        <!-- Fruits Shop End-->
-
-
+    </div>
+</div>
+            
         <!-- Footer Start -->
         <div class="container-fluid text-white-50 footer pt-5 mt-5" style="color: black;">
             <div class="container py-5">
